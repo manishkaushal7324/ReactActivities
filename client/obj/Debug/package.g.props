@@ -19,6 +19,7 @@
     <PackageJsonDependenciesAxios Condition="$(PackageJsonDependenciesAxios) == ''">^1.16.1</PackageJsonDependenciesAxios>
     <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">^19.2.6</PackageJsonDependenciesReact>
     <PackageJsonDependenciesReactDom Condition="$(PackageJsonDependenciesReactDom) == ''">^19.2.6</PackageJsonDependenciesReactDom>
+    <PackageJsonDependenciesReactRouter Condition="$(PackageJsonDependenciesReactRouter) == ''">^7.15.1</PackageJsonDependenciesReactRouter>
     <PackageJsonDevdependenciesEslintJs Condition="$(PackageJsonDevdependenciesEslintJs) == ''">^10.0.1</PackageJsonDevdependenciesEslintJs>
     <PackageJsonDevdependenciesTypesNode Condition="$(PackageJsonDevdependenciesTypesNode) == ''">^24.12.3</PackageJsonDevdependenciesTypesNode>
     <PackageJsonDevdependenciesTypesReact Condition="$(PackageJsonDevdependenciesTypesReact) == ''">^19.2.14</PackageJsonDevdependenciesTypesReact>

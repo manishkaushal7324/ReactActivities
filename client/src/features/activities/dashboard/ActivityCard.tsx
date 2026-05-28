@@ -1,13 +1,14 @@
 import { Box, Button, Card, CardActions, CardContent, Chip, Typography } from "@mui/material"
 import { useActivities } from "../../../lib/hooks/useActivities";
+import { useNavigate } from "react-router";
+
 
 type Props = {
-    activity: Activity
-    selectActivity: (id: string) => void;    
+    activity: Activity       
 }
 
-export default function ActivityCard({ activity, selectActivity }: Props) {
-
+export default function ActivityCard({ activity }: Props) {
+    const navigate = useNavigate();
     const { deleteActivity } = useActivities();
 
     return (
@@ -20,12 +21,14 @@ export default function ActivityCard({ activity, selectActivity }: Props) {
             </CardContent>
             <CardActions sx={{ display: 'flex', justifyContent: 'space-between', pb: 2 }}>
                 <Chip label={activity.category} variant='outlined' />
-                <Box sx={{ display: 'flex', justifyContent: 'space-between', gap: 3 }}>
+                <Box sx={{ display: 'flex', gap: 3 }}>
+                    <Button onClick={() => navigate(`/activities/${activity.id}`)} size='medium'
+                        variant='contained'>View</Button>
+
                     <Button onClick={() => (deleteActivity.mutate(activity.id))} size='medium'
                         variant='contained' color='error'
                         disabled={deleteActivity.isPending}
                     >Delete</Button>
-                    <Button onClick={() => (selectActivity(activity.id))} size='medium' variant='contained'>View</Button>
 
                 </Box>
             </CardActions>
