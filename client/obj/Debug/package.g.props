@@ -14,6 +14,8 @@
     <PackageJsonDependenciesFontsourceRoboto Condition="$(PackageJsonDependenciesFontsourceRoboto) == ''">^5.2.10</PackageJsonDependenciesFontsourceRoboto>
     <PackageJsonDependenciesMuiIconsMaterial Condition="$(PackageJsonDependenciesMuiIconsMaterial) == ''">^9.0.1</PackageJsonDependenciesMuiIconsMaterial>
     <PackageJsonDependenciesMuiMaterial Condition="$(PackageJsonDependenciesMuiMaterial) == ''">^9.0.1</PackageJsonDependenciesMuiMaterial>
+    <PackageJsonDependenciesTanstackReactQuery Condition="$(PackageJsonDependenciesTanstackReactQuery) == ''">^5.100.14</PackageJsonDependenciesTanstackReactQuery>
+    <PackageJsonDependenciesTanstackReactQueryDevtools Condition="$(PackageJsonDependenciesTanstackReactQueryDevtools) == ''">^5.100.14</PackageJsonDependenciesTanstackReactQueryDevtools>
     <PackageJsonDependenciesAxios Condition="$(PackageJsonDependenciesAxios) == ''">^1.16.1</PackageJsonDependenciesAxios>
     <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">^19.2.6</PackageJsonDependenciesReact>
     <PackageJsonDependenciesReactDom Condition="$(PackageJsonDependenciesReactDom) == ''">^19.2.6</PackageJsonDependenciesReactDom>
