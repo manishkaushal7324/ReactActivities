@@ -18,6 +18,8 @@
     <PackageJsonDependenciesTanstackReactQueryDevtools Condition="$(PackageJsonDependenciesTanstackReactQueryDevtools) == ''">^5.100.14</PackageJsonDependenciesTanstackReactQueryDevtools>
     <PackageJsonDependenciesAxios Condition="$(PackageJsonDependenciesAxios) == ''">^1.16.1</PackageJsonDependenciesAxios>
     <PackageJsonDependenciesDateFns Condition="$(PackageJsonDependenciesDateFns) == ''">^4.3.0</PackageJsonDependenciesDateFns>
+    <PackageJsonDependenciesMobx Condition="$(PackageJsonDependenciesMobx) == ''">^6.15.4</PackageJsonDependenciesMobx>
+    <PackageJsonDependenciesMobxReactLite Condition="$(PackageJsonDependenciesMobxReactLite) == ''">^4.1.1</PackageJsonDependenciesMobxReactLite>
     <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">^19.2.6</PackageJsonDependenciesReact>
     <PackageJsonDependenciesReactCalendar Condition="$(PackageJsonDependenciesReactCalendar) == ''">^6.0.1</PackageJsonDependenciesReactCalendar>
     <PackageJsonDependenciesReactDom Condition="$(PackageJsonDependenciesReactDom) == ''">^19.2.6</PackageJsonDependenciesReactDom>
